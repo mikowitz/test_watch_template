@@ -9,11 +9,12 @@ defmodule TestWatchTemplate.Mixfile do
     { :ex_doc,         ">0.0.0",  only: [:dev, :test] },
   ]
 
-  @maintainers ["Your Name <youe@example.com>"]
-  @github      "https://github.com/•••/#{@name}"
+  @maintainers ["Michael Berkowitz <michael.berkowitz@gmail.com>"]
+  @github      "https://github.com/mikowitz/test_watch_template"
 
   @description """
-  What your template does (less than 300 characters)
+  Provides a mix project template with mix_test_watch, credo, and stream_data
+  installed and configured.
   """
 
   # ------------------------------------------------------------
@@ -40,9 +41,7 @@ defmodule TestWatchTemplate.Mixfile do
       licenses:    ["Apache 2.0"],
       links:       %{
         "GitHub" => @github,
-      },
-#      extra:       %{ "type" => "a_template_for_mix_gen" },
+      }
     ]
   end
-
 end
