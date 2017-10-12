@@ -2,7 +2,7 @@ defmodule TestWatchTemplate.Mixfile do
   use Mix.Project
 
   @name    :test_watch_template
-  @version "0.1.0"
+  @version "0.2.0"
 
   @deps [
     { :mix_templates,  ">0.0.0",  app: false },
@@ -38,7 +38,7 @@ defmodule TestWatchTemplate.Mixfile do
       name:        @name,
       files:       ["lib", "mix.exs", "README.md", "LICENSE.md", "template"],
       maintainers: @maintainers,
-      licenses:    ["Apache 2.0"],
+      licenses:    ["MIT"],
       links:       %{
         "GitHub" => @github,
       }
