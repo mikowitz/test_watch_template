@@ -2,7 +2,7 @@ defmodule TestWatchTemplate.Mixfile do
   use Mix.Project
 
   @name    :test_watch_template
-  @version "0.2.0"
+  @version "0.3.0"
 
   @deps [
     { :mix_templates,  ">0.0.0",  app: false },
